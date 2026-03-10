@@ -1,0 +1,28 @@
+baseurl = "https://0x4ngk4n.github.io/"
+languageCode = "en-us"
+theme = "terminal"
+pagination.pagerSize = 5
+publishDir = "../0x4ngk4n.github.io"
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params]
+  contentTypeName = "posts"
+  showMenuItems = 2
+  fullWidthTheme = false
+  centerTheme = false
+
+[languages]
+  [languages.en]
+    title = "exploit dev"
+    subtitle = "the journey of an N-day exploit researcher, where eventually N -> 0"
+    keywords = ""
+    copyright = ""
+    menuMore = "Show more"
+    readMore = "Read more"
+    readOtherPosts = "Read other posts"
+
+    [languages.en.params.logo]
+      logoText = "Terminal"
+      logoHomeLink = "/"
